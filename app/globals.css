@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #181A1E;
+
+  /* Saffron / Orange Theme Colors */
+  --saffron-primary: #F06529;
+  --saffron-hover: #DF5316;
+  --saffron-active: #C8440A;
+  --saffron-light: #FFF5EE;
+  --saffron-subtle: #FFF0E6;
+
+  /* Clay Shadows on Solid White */
+  --clay-saffron-card: 0 14px 34px rgba(240, 101, 41, 0.09), 0 4px 12px rgba(0, 0, 0, 0.04), inset 3px 3px 6px rgba(255, 255, 255, 1), inset -3px -3px 6px rgba(240, 101, 41, 0.07);
+  --clay-saffron-btn: 6px 10px 24px rgba(240, 101, 41, 0.38), -4px -4px 12px rgba(255, 255, 255, 0.95), inset 2.5px 2.5px 5px rgba(255, 255, 255, 0.55), inset -2.5px -2.5px 5px rgba(160, 45, 10, 0.4);
+  --clay-saffron-btn-pressed: inset 4px 4px 8px rgba(150, 40, 8, 0.5), inset -2px -2px 4px rgba(255, 255, 255, 0.4), 0 2px 6px rgba(240, 101, 41, 0.2);
+}
+
+/* Strictly Solid White Background & Single Font Across Entire Website */
+html, body {
+  background-color: #FFFFFF !important;
+  color: #181A1E;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(240, 101, 41, 0.45);
+  outline-offset: 3px;
+}
