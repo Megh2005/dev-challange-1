@@ -1,5 +1,5 @@
 ---
-title: ShramPark: Offline-First AI Engineering & Construction Safety Companion Built for Raghav
+title: ShramPark: Offline-First AI Engineering Companion 'Raghav' Built for My Civil Engineer Friend
 published: true
 tags: devchallenge, weekendchallenge, hf26challenge
 ---
@@ -8,23 +8,23 @@ tags: devchallenge, weekendchallenge, hf26challenge
 
 ## What I Built
 
-**ShramPark** is an offline-first, mobile-responsive AI engineering companion and construction site safety platform built specifically for my civil engineer friend, **Raghav**.
+**ShramPark** is an offline-first, mobile-responsive AI engineering companion and construction site safety platform. At its core is **Raghav AI**—an on-device structural engineering assistant built specifically for my civil engineer friend.
 
-### The Problem Raghav Faced
+### The Problem My Friend Faced
 
-Raghav works as a structural and site civil engineer on active, high-pressure infrastructure and building projects. He spends hours stationed deep underground in basement excavations, piling pits, tunnel shafts, and remote jobsites where cellular networks and internet connectivity drop to absolute zero.
+My friend works as a structural and site civil engineer on active, high-pressure infrastructure and building projects. He spends hours stationed deep underground in basement excavations, piling pits, tunnel shafts, and remote jobsites where cellular networks and internet connectivity drop to absolute zero.
 
-On active sites, Raghav constantly needs to:
+On active sites, he constantly needs to:
 - Cross-reference complex Indian Standard (IS) codes (such as IS 456:2000 for reinforced concrete, IS 800:2007 for structural steel, IS 1893:2016 for seismic design, IS 875 for wind and structural loading, and IS 10262:2019 for concrete mix proportioning).
 - Perform step-by-step mathematical engineering calculations (limiting moment of resistance, shear capacity, development length, rebar curtailment, and deflection limits).
 - Adjust concrete pouring and curing regimes based on real-time micro-climate factors (temperature, relative humidity, wind speed) to prevent thermal cracking and plastic shrinkage as per IS 7861.
 - Inspect on-site craftsmanship (rebar placement, cover block clearances, shuttering verticality, honeycombing) and produce stamped technical audit sheets.
 
-In deep basement pits with zero cell reception, conventional cloud-based AI tools are completely unusable. Raghav needed an intelligent, reliable engineering co-pilot that lives directly on his device and never requires an internet connection to solve complex structural problems.
+In deep basement pits with zero cell reception, conventional cloud-based AI tools are completely unusable. He needed an intelligent, reliable engineering co-pilot that lives directly on his device and never requires an internet connection to solve complex structural problems. To solve this, I built **Raghav AI**.
 
 ### What ShramPark Does
 
-- **Raghav AI (Offline On-Device Engineering Assistant)**: Runs Google's open-weight **Gemma 4 E2B** model 100% locally in the browser using **LiteRT-LM** and **WebGPU**. It performs limit-state RC beam/slab/column design, shear checks, development length derivations, and mix design checks completely offline with zero server roundtrips.
+- **Raghav AI (Offline On-Device Engineering Assistant)**: Runs Google's open-weight **Gemma 4 E2B** model 100% locally in the browser using **LiteRT-LM** and **WebGPU**. Named 'Raghav', this assistant acts as an on-site engineering colleague that performs limit-state RC beam/slab/column design, shear checks, development length derivations, and mix design checks completely offline with zero server roundtrips.
 - **SiteVision (AI Quality & Safety Inspector)**: Computer vision diagnostics allowing engineers and supervisors to snap photos of rebar cages, shuttering, or freshly cast concrete to detect honeycombing, cover block placement errors, slurry leaks, and safety non-compliance.
 - **Micro-Climate Engineering Personalization**: Integrates live site geolocation and micro-climate data (ambient temperature, humidity, wind speed) to automatically calculate evaporation rates, adjust curing durations, and suggest plastic shrinkage precautions as per IS 7861.
 - **Standardized PDF Engineering Memos**: Generates client-side, formatted technical calculation reports and site inspection checklists with KaTeX mathematical formulas.
@@ -33,8 +33,6 @@ In deep basement pits with zero cell reception, conventional cloud-based AI tool
 ## Demo
 
 The application is deployed and ready to use live in the field:
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-shrampark.vercel.app-F06529?style=for-the-badge&logo=vercel&logoColor=white)](https://shrampark.vercel.app/)
 
 **Live Deployment URL**: [https://shrampark.vercel.app/](https://shrampark.vercel.app/)
 
@@ -45,8 +43,6 @@ The application is deployed and ready to use live in the field:
 ## Code
 
 {% github Megh2005/dev-challange-1 %}
-
-[![GitHub Repository](https://opengraph.githubassets.com/1/Megh2005/dev-challange-1)](https://github.com/Megh2005/dev-challange-1)
 
 **GitHub Repository**: [https://github.com/Megh2005/dev-challange-1](https://github.com/Megh2005/dev-challange-1)
 
@@ -74,7 +70,7 @@ ShramPark is architected around open-weight on-device AI designed to withstand h
 Open innovation is what made ShramPark viable for real-world construction:
 
 1. **True Offline Independence in Dead Zones**:
-   Closed-source APIs require round-trip internet requests. On construction sites—inside double-basements, metro tunnels, rebar fabrication yards, or remote flyover sites—cellular signals are weak or non-existent. Open weights paired with LiteRT-LM allow Raghav to carry an entire structural engineering brain directly in his laptop or tablet browser without a single bar of cell reception.
+   Closed-source APIs require round-trip internet requests. On construction sites—inside double-basements, metro tunnels, rebar fabrication yards, or remote flyover sites—cellular signals are weak or non-existent. Open weights paired with LiteRT-LM allow my friend and site engineers to carry an entire structural engineering brain directly in their laptop or tablet browser without a single bar of cell reception.
 
 2. **Zero Incurred In-Field Costs**:
    Civil engineers, site supervisors, and independent contractors cannot afford recurring monthly API subscriptions or per-token fees for routine field calculations. Open-weight local inference delivers complete engineering calculations without recurring expenses.
