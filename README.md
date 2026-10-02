@@ -44,11 +44,11 @@ The application is deployed and ready to use live in the field:
 
 ## Code
 
-{% github SuvrojeetSamanta/civilathon-final %}
+{% github Megh2005/dev-challange-1 %}
 
-[![GitHub Repository](https://opengraph.githubassets.com/1/SuvrojeetSamanta/civilathon-final)](https://github.com/SuvrojeetSamanta/civilathon-final)
+[![GitHub Repository](https://opengraph.githubassets.com/1/Megh2005/dev-challange-1)](https://github.com/Megh2005/dev-challange-1)
 
-**GitHub Repository**: [https://github.com/SuvrojeetSamanta/civilathon-final](https://github.com/SuvrojeetSamanta/civilathon-final)
+**GitHub Repository**: [https://github.com/Megh2005/dev-challange-1](https://github.com/Megh2005/dev-challange-1)
 
 ## How I Built It
 
